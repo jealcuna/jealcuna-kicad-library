@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RUC002N05HZGT116
+D N-Channel 50V 200mA (Ta) 350mW (Ta) Surface Mount SST3
+K 1.2V DRIVE NCH MOSFET
+F http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/ruc002n05hzgt116-e.pdf
+$ENDCMP
+#
+$CMP RUC002N05T116
+D N-Channel 50V 200mA (Ta) 200mW (Ta) Surface Mount SST3	
+K MOSFET N-CH 50V 0.2A SST3
+F https://www.rohm.com/datasheet/RUC002N05/ruc002n05-e
+$ENDCMP
+#
+$CMP T835T-8G-TR
+D 88 A 800 V D2PAK (TO-263) Snubberless Triac
+K Triac
+F https://www.st.com/resource/en/datasheet/t835t-8g.pdf
+$ENDCMP
+#
+#End Doc Library
