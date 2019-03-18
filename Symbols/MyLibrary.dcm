@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP PI3C3126
+D Quad SPST Analog Switch, 5Ohm Ron, TSSOP-14
+K CMOS Analog Switch
+F https://www.diodes.com/assets/Datasheets/PI3C3126.pdf
+$ENDCMP
+#
 $CMP RUC002N05HZGT116
 D N-Channel 50V 200mA (Ta) 350mW (Ta) Surface Mount SST3
 K 1.2V DRIVE NCH MOSFET
@@ -10,6 +16,12 @@ $CMP RUC002N05T116
 D N-Channel 50V 200mA (Ta) 200mW (Ta) Surface Mount SST3
 K MOSFET N-CH 50V 0.2A SST3
 F https://www.rohm.com/datasheet/RUC002N05/ruc002n05-e
+$ENDCMP
+#
+$CMP ST3232EBDR
+D Dual RS232 driver/receiver, 3-5V supply, 250kb/s, 0C-70C
+K rs232 uart transceiver line-driver
+F https://www.st.com/content/ccc/resource/technical/document/datasheet/60/fc/e5/60/2c/24/41/88/CD00002950.pdf/files/CD00002950.pdf/jcr:content/translations/en.CD00002950.pdf
 $ENDCMP
 #
 $CMP ST3232ECDR
