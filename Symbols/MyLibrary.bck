@@ -18,6 +18,12 @@ K MOSFET N-CH 50V 0.2A SST3
 F https://www.rohm.com/datasheet/RUC002N05/ruc002n05-e
 $ENDCMP
 #
+$CMP SBL2E-100IR
+D Server, Serial to Ethernet Adapter Card UART
+K TCP/UDP UART TTL
+F https://www.netburner.com/download/sbl2e-datasheet/?wpdmdl=4158&ind=0
+$ENDCMP
+#
 $CMP ST3232EBDR
 D Dual RS232 driver/receiver, 3-5V supply, 250kb/s, 0C-70C
 K rs232 uart transceiver line-driver
