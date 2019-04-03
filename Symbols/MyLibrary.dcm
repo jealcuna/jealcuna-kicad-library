@@ -1,5 +1,75 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ADS8681PW
+D 16-Bit, High-Speed, Single-Supply, SAR ADC Data Acquisition System with Programmable, Bipolar Input Ranges, 1MSPS, TSSOP-16
+K ADC SPI analog digital
+F http://www.ti.com/lit/ds/symlink/ads8681.pdf
+$ENDCMP
+#
+$CMP ADS8685PW
+D 16-Bit, High-Speed, Single-Supply, SAR ADC Data Acquisition System with Programmable, Bipolar Input Ranges, 500KSPS, TSSOP-16
+K ADC SPI analog digital
+F http://www.ti.com/lit/ds/symlink/ads8685.pdf
+$ENDCMP
+#
+$CMP ADS8689PW
+D 16-Bit, High-Speed, Single-Supply, SAR ADC Data Acquisition System with Programmable, Bipolar Input Ranges, 100KSPS, TSSOP-16
+K ADC SPI analog digital
+F http://www.ti.com/lit/ds/symlink/ads8689.pdf
+$ENDCMP
+#
+$CMP CPC1998J
+D Solid State Relay SPST-NO (1 Form A) i4-Pac™-4, Isolated
+K SSR RELAY
+F http://www.ixysic.com/home/pdfs.nsf/www/CPC1998.pdf/$file/CPC1998.pdf
+$ENDCMP
+#
+$CMP FLL4148
+D Diode Standard 100V 200mA Surface Mount SOD-80
+K diode
+F https://www.onsemi.com/pub/Collateral/1N914-D.PDF
+$ENDCMP
+#
+$CMP HLK-PM01
+D AC-DC regulator, Input 100-240VAC 0.1A 50-60Hz, Output 5VDC 0.6A
+F http://www.hlktech.net/product_detail.php?ProId=54
+$ENDCMP
+#
+$CMP HLK-PM03
+D AC-DC regulator, Input 100-240VAC 0.1A 50-60Hz, Output 3.3VDC 1A
+F http://www.hlktech.net/product_detail.php?ProId=54
+$ENDCMP
+#
+$CMP INA190A1RSW
+D Low-Supply, High-Accuracy, Low- and High-Side Current-Shunt Monitor With Picoamp Bias Current and Enable, UQFN (10) package
+K current sense shunt monitor
+F http://www.ti.com/lit/ds/symlink/ina190.pdf
+$ENDCMP
+#
+$CMP INA190A2RSW
+D Low-Supply, High-Accuracy, Low- and High-Side Current-Shunt Monitor With Picoamp Bias Current and Enable, UQFN (10) package
+K current sense shunt monitor
+F http://www.ti.com/lit/ds/symlink/ina190.pdf
+$ENDCMP
+#
+$CMP INA190A3RSW
+D Low-Supply, High-Accuracy, Low- and High-Side Current-Shunt Monitor With Picoamp Bias Current and Enable, UQFN (10) package
+K current sense shunt monitor
+F http://www.ti.com/lit/ds/symlink/ina190.pdf
+$ENDCMP
+#
+$CMP INA190A4RSW
+D Low-Supply, High-Accuracy, Low- and High-Side Current-Shunt Monitor With Picoamp Bias Current and Enable, UQFN (10) package
+K current sense shunt monitor
+F http://www.ti.com/lit/ds/symlink/ina190.pdf
+$ENDCMP
+#
+$CMP INA190A5RSW
+D Low-Supply, High-Accuracy, Low- and High-Side Current-Shunt Monitor With Picoamp Bias Current and Enable, UQFN (10) package
+K current sense shunt monitor
+F http://www.ti.com/lit/ds/symlink/ina190.pdf
+$ENDCMP
+#
 $CMP PI3C3126
 D Quad SPST Analog Switch, 5Ohm Ron, TSSOP-14
 K CMOS Analog Switch
@@ -36,10 +106,88 @@ K rs232 uart transceiver line-driver
 F https://www.st.com/content/ccc/resource/technical/document/datasheet/60/fc/e5/60/2c/24/41/88/CD00002950.pdf/files/CD00002950.pdf/jcr:content/translations/en.CD00002950.pdf
 $ENDCMP
 #
+$CMP T1210-800G-TR
+D TRIAC Logic - Sensitive Gate 800V 12A Surface Mount D2PAK
+K Triac
+F https://www.st.com/content/ccc/resource/technical/document/datasheet/aa/8c/87/f6/18/fc/46/93/CD00002267.pdf/files/CD00002267.pdf/jcr:content/translations/en.CD00002267.pdf
+$ENDCMP
+#
+$CMP T2N7002BK
+D N-Channel 60V 400mA (Ta) 320mW (Ta) Surface Mount SOT-23-3
+K N-Channel MOSFET
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=30376&prodName=T2N7002BK
+$ENDCMP
+#
 $CMP T835T-8G-TR
 D 88 A 800 V D2PAK (TO-263) Snubberless Triac
 K Triac
 F https://www.st.com/resource/en/datasheet/t835t-8g.pdf
+$ENDCMP
+#
+$CMP TLV75709PDBVR
+D 1A, Low IQ, Small Size, Low Dropout Regulator, Fixed Output 0.9V, SOT-23-5
+K LDO Regulator Fixed Positive
+F http://www.ti.com/lit/ds/symlink/tlv757p.pdf
+$ENDCMP
+#
+$CMP TLV75710PDBVR
+D 1A, Low IQ, Small Size, Low Dropout Regulator, Fixed Output 1V, SOT-23-5
+K LDO Regulator Fixed Positive
+F http://www.ti.com/lit/ds/symlink/tlv757p.pdf
+$ENDCMP
+#
+$CMP TLV75712PDBVR
+D 1A, Low IQ, Small Size, Low Dropout Regulator, Fixed Output 1.2V, SOT-23-5
+K LDO Regulator Fixed Positive
+F http://www.ti.com/lit/ds/symlink/tlv757p.pdf
+$ENDCMP
+#
+$CMP TLV75715PDBVR
+D 1A, Low IQ, Small Size, Low Dropout Regulator, Fixed Output 1.5V, SOT-23-5
+K LDO Regulator Fixed Positive
+F http://www.ti.com/lit/ds/symlink/tlv757p.pdf
+$ENDCMP
+#
+$CMP TLV75718PDBVR
+D 1A, Low IQ, Small Size, Low Dropout Regulator, Fixed Output 1.8V, SOT-23-5
+K LDO Regulator Fixed Positive
+F http://www.ti.com/lit/ds/symlink/tlv757p.pdf
+$ENDCMP
+#
+$CMP TLV75719PDBVR
+D 1A, Low IQ, Small Size, Low Dropout Regulator, Fixed Output 1.9V, SOT-23-5
+K LDO Regulator Fixed Positive
+F http://www.ti.com/lit/ds/symlink/tlv757p.pdf
+$ENDCMP
+#
+$CMP TLV75725PDBVR
+D 1A, Low IQ, Small Size, Low Dropout Regulator, Fixed Output 2.5V, SOT-23-5
+K LDO Regulator Fixed Positive
+F http://www.ti.com/lit/ds/symlink/tlv757p.pdf
+$ENDCMP
+#
+$CMP TLV75728PDBVR
+D 1A, Low IQ, Small Size, Low Dropout Regulator, Fixed Output 2.8V, SOT-23-5
+K LDO Regulator Fixed Positive
+F http://www.ti.com/lit/ds/symlink/tlv757p.pdf
+$ENDCMP
+#
+$CMP TLV75729PDBVR
+D 1A, Low IQ, Small Size, Low Dropout Regulator, Fixed Output 2.9V, SOT-23-5
+K LDO Regulator Fixed Positive
+F http://www.ti.com/lit/ds/symlink/tlv757p.pdf
+$ENDCMP
+#
+$CMP TLV75730PDBVR
+D 1A, Low IQ, Small Size, Low Dropout Regulator, Fixed Output 3.0V, SOT-23-5
+K LDO Regulator Fixed Positive
+F http://www.ti.com/lit/ds/symlink/tlv757p.pdf
+$ENDCMP
+#
+$CMP TLV75733PDBVR
+D 1A, Low IQ, Small Size, Low Dropout Regulator, Fixed Output 3.3V, SOT-23-5
+K LDO Regulator Fixed Positive
+F http://www.ti.com/lit/ds/symlink/tlv757p.pdf
 $ENDCMP
 #
 #End Doc Library
