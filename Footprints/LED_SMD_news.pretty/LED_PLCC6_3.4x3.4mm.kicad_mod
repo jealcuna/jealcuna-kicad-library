@@ -1,4 +1,4 @@
-(module LED_PLCC6_3.4x3.4mm (layer F.Cu) (tedit 5C5B00DC)
+(module LED_PLCC6_3.4x3.4mm (layer F.Cu) (tedit 5CAF9308)
   (descr https://www.cree.com/led-components/media/documents/ds-CLX6F-FKC-1352.pdf)
   (tags "Cree PLCC6 3 in 1 SMD LED")
   (attr smd)
@@ -28,7 +28,7 @@
   (pad 3 smd rect (at -1.7 1) (size 2 0.6) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at -1.7 0) (size 2 0.6) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at -1.7 -1) (size 2 0.6) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS3DMOD}/LED_SMD.3dshapes/LED_Avago_PLCC6_3x2.8mm.wrl
+  (model ${MY_KICAD_WORKSPACE}/Library/local_library/jealcuna-kicad-library/3D/LED_SMD/RGB_LED_PLCC6_3.7x3.5.STEP
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
