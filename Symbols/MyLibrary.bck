@@ -70,6 +70,18 @@ K current sense shunt monitor
 F http://www.ti.com/lit/ds/symlink/ina190.pdf
 $ENDCMP
 #
+$CMP PESD3V3L4UG
+D Low capacitance unidirectional quadruple ESD protection diode array, 3.3V, Common Anode, SOT-353
+K diode
+F https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf
+$ENDCMP
+#
+$CMP PESD5V0L4UG
+D Low capacitance unidirectional quadruple ESD protection diode array, 5.0V, Common Anode, SOT-353
+K diode
+F https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf
+$ENDCMP
+#
 $CMP PI3C3126
 D Quad SPST Analog Switch, 5Ohm Ron, TSSOP-14
 K CMOS Analog Switch
