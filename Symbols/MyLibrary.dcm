@@ -70,6 +70,12 @@ K current sense shunt monitor
 F http://www.ti.com/lit/ds/symlink/ina190.pdf
 $ENDCMP
 #
+$CMP MCP16251CH
+D Synchronous Boost Regulator, Adjustable Output 1.8V-5.5V, PWM/PFM True Disconnect, SOT-23
+K Step-Up Boost DC-DC Regulator Adjustable
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005173B.pdf
+$ENDCMP
+#
 $CMP PESD3V3L4UG
 D Low capacitance unidirectional quadruple ESD protection diode array, 3.3V, Common Anode, SOT-353
 K diode
