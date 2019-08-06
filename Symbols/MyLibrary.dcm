@@ -18,16 +18,61 @@ K ADC SPI analog digital
 F http://www.ti.com/lit/ds/symlink/ads8689.pdf
 $ENDCMP
 #
+$CMP AO4264E
+D 60V N-Channel AlphaSGT T SOIC-8
+K MOSFET N-MOS
+F https://datasheet.lcsc.com/szlcsc/1903121631_Alpha-Omega-Semicon-AOS-AO4264E_C334232.pdf
+$ENDCMP
+#
+$CMP AO4435
+D 30V P-Channel MOSFET
+F https://datasheet.lcsc.com/szlcsc/Alpha-Omega-Semicon-AOS-AO4435_C79714.pdf
+$ENDCMP
+#
+$CMP AQH0213AZ
+D Solid State Relay SPST-NO (1 Form A) 8-SMD (0.300", 7.62mm), 7 Leads
+K SSR RELAY
+F https://www3.panasonic.biz/ac/e_download/control/relay/solid-state/catalog/semi_eng_aqh.pdf
+$ENDCMP
+#
 $CMP CPC1998J
 D Solid State Relay SPST-NO (1 Form A) i4-Pac™-4, Isolated
 K SSR RELAY
 F http://www.ixysic.com/home/pdfs.nsf/www/CPC1998.pdf/$file/CPC1998.pdf
 $ENDCMP
 #
+$CMP CS5343
+D 98 dB, 96 kHz, Multi-Bit Audio A/D Converter
+K 98 dB, 96 kHz, Multi-Bit Audio A/D Converter
+F https://datasheet.lcsc.com/szlcsc/Cirrus-Logic-CS5343-CZZ_C21255.pdf
+$ENDCMP
+#
+$CMP CS5344
+D 98 dB, 96 kHz, Multi-Bit Audio A/D Converter
+K 98 dB, 96 kHz, Multi-Bit Audio A/D Converter
+F https://datasheet.lcsc.com/szlcsc/Cirrus-Logic-CS5343-CZZ_C21255.pdf
+$ENDCMP
+#
+$CMP DMN2011UTS
+D MOSFET N-CH 20V 21A 8-TSSOP
+K NexFET Power MOSFET N-MOS
+F https://www.diodes.com/assets/Datasheets/DMN2011UTS.pdf
+$ENDCMP
+#
+$CMP E22-900T30S
+F http://www.ebyte.com/en/downpdf.aspx?id=485
+$ENDCMP
+#
 $CMP FLL4148
 D Diode Standard 100V 200mA Surface Mount SOD-80
 K diode
 F https://www.onsemi.com/pub/Collateral/1N914-D.PDF
+$ENDCMP
+#
+$CMP G3VM-351D
+D General-purpose Series with 350-V Load Voltage Continuous load current of 120 mA
+K General-purpose Series with 350-V Load Voltage Continuous load current of 120 mA
+F https://datasheet.lcsc.com/szlcsc/Omron-Electronics-G3VM-351D_C152706.pdf
 $ENDCMP
 #
 $CMP HLK-PM01
@@ -76,6 +121,23 @@ K Step-Up Boost DC-DC Regulator Adjustable
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005173B.pdf
 $ENDCMP
 #
+$CMP MP2315GJ
+D High Efficiency 3A, 24V, 500kHz Synchronous Step Down Converter
+F https://datasheet.lcsc.com/szlcsc/Monolithic-Power-Systems-MPS-MP2315GJ-Z_C45889.pdf
+$ENDCMP
+#
+$CMP NCV7344D13R2G
+D High Speed Low Power CAN, CAN FD Transceiver, 5Mbps, Vio, 5V supply, SOIC8 package
+K High-Speed CAN Transceiver
+F https://www.onsemi.com/pub/Collateral/NCV7344-D.PDF
+$ENDCMP
+#
+$CMP PCA9557
+D 8-bit I2C-bus and SMBus I/O port with reset
+K I2C bus expansion
+F https://datasheet.lcsc.com/szlcsc/NXP-Semicon-PCA9557PW-118_C141380.pdf
+$ENDCMP
+#
 $CMP PESD3V3L4UG
 D Low capacitance unidirectional quadruple ESD protection diode array, 3.3V, Common Anode, SOT-353
 K diode
@@ -94,6 +156,21 @@ K CMOS Analog Switch
 F https://www.diodes.com/assets/Datasheets/PI3C3126.pdf
 $ENDCMP
 #
+$CMP PSMN1R2-30YLC
+D N-channel 30 V 1.25mΩ logic level MOSFET in LFPAK using NextPower technology
+F https://assets.nexperia.com/documents/data-sheet/PSMN1R2-30YLC.pdf
+$ENDCMP
+#
+$CMP PSMN1R2-30YLD
+D N-channel 30 V, 1.2 mΩ, 250 A logic level MOSFET in LFPAK56 using NextPowerS3 Technology
+F https://assets.nexperia.com/documents/data-sheet/PSMN1R2-30YLD.pdf
+$ENDCMP
+#
+$CMP PSMN1R5-30YLC
+D N-channel 30 V 1.55mΩ logic level MOSFET in LFPAK using NextPower technology
+F https://datasheet.lcsc.com/szlcsc/Nexperia-PSMN1R5-30YLC_C134469.pdf
+$ENDCMP
+#
 $CMP RUC002N05HZGT116
 D N-Channel 50V 200mA (Ta) 350mW (Ta) Surface Mount SST3
 K 1.2V DRIVE NCH MOSFET
@@ -106,10 +183,52 @@ K MOSFET N-CH 50V 0.2A SST3
 F https://www.rohm.com/datasheet/RUC002N05/ruc002n05-e
 $ENDCMP
 #
+$CMP RUM001L02
+D Nch 20V 100mA Small Signal MOSFET
+K MOSFET N-CH 20V 1.2V DRIVE
+F https://datasheet.lcsc.com/szlcsc/ROHM-Semicon-RUM001L02T2CL_C253528.pdf
+$ENDCMP
+#
 $CMP SBL2E-100IR
 D Server, Serial to Ethernet Adapter Card UART
 K TCP/UDP UART TTL
 F https://www.netburner.com/download/sbl2e-datasheet/?wpdmdl=4158&ind=0
+$ENDCMP
+#
+$CMP SGM2028-2.8
+D 500mA, Ultra Low Dropout, Low Power, RF Linear Regulators
+K LDO Regulator
+F https://datasheet.lcsc.com/szlcsc/SG-Micro-SGM2028-3-3YN5G-TR_C81088.pdf
+$ENDCMP
+#
+$CMP SGM2028-3.0
+D 500mA, Ultra Low Dropout, Low Power, RF Linear Regulators
+K LDO Regulator
+F https://datasheet.lcsc.com/szlcsc/SG-Micro-SGM2028-3-3YN5G-TR_C81088.pdf
+$ENDCMP
+#
+$CMP SGM2028-3.3
+D 500mA, Ultra Low Dropout, Low Power, RF Linear Regulators
+K LDO Regulator
+F https://datasheet.lcsc.com/szlcsc/SG-Micro-SGM2028-3-3YN5G-TR_C81088.pdf
+$ENDCMP
+#
+$CMP SSM3J328R
+D P-Channel 20V 6A (Ta) 1W (Ta) Surface Mount SOT-23F
+K P-Channel 20V 6A (Ta) 1W (Ta) Surface Mount SOT-23F
+F https://datasheet.lcsc.com/szlcsc/1906131632_TOSHIBA-SSM3J328R-LF-A_C396016.pdf
+$ENDCMP
+#
+$CMP SSM3J338R
+D P-Channel 12V 6A (Ta) 1W (Ta) Surface Mount SOT-23F
+K P-Channel 12V 6A (Ta) 1W (Ta) Surface Mount SOT-23F
+F http://toshiba.semicon-storage.com/info/docget.jsp?did=30384&prodName=SSM3J338R
+$ENDCMP
+#
+$CMP SSM3J378R
+D P-Channel 20V 6A (Ta) 1W (Ta) Surface Mount SOT-23F
+K P-Channel 20V 6A (Ta) 1W (Ta) Surface Mount SOT-23F
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=59205&prodName=SSM3J378R
 $ENDCMP
 #
 $CMP ST3232EBDR
@@ -206,6 +325,12 @@ $CMP TLV75733PDBVR
 D 1A, Low IQ, Small Size, Low Dropout Regulator, Fixed Output 3.3V, SOT-23-5
 K LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tlv757p.pdf
+$ENDCMP
+#
+$CMP UT3232G-S16-R
+D 3.0V TO 5.5V LOW POWER MULTICHANNEL RS-232 LINE TRANSCEIVERS USING FOR 0.1μF EXTERNAL CAPACITORS
+K rs232 uart transceiver line-driver
+F https://datasheet.lcsc.com/szlcsc/Unisonic-Tech-UT3232G-S16-R_C84913.pdf
 $ENDCMP
 #
 #End Doc Library
