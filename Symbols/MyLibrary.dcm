@@ -75,6 +75,42 @@ K General-purpose Series with 350-V Load Voltage Continuous load current of 120 
 F https://datasheet.lcsc.com/szlcsc/Omron-Electronics-G3VM-351D_C152706.pdf
 $ENDCMP
 #
+$CMP G5NB-1A-24VDC
+D Relays General Purpose Non Latching 24VDC SPST-NO 3A (250VAC , 30VDC) Max Plugin RoHS
+K Single Pole Relay
+F https://datasheet.lcsc.com/szlcsc/Omron-Electronics-G5NB-1A-E-DC5V_C48746.pdf
+$ENDCMP
+#
+$CMP G5NB-1A-DC12
+D Relays General Purpose Non Latching 12VDC SPST-NO 3A (250VAC , 30VDC) Max Plugin RoHS
+K Single Pole Relay
+F https://datasheet.lcsc.com/szlcsc/Omron-Electronics-G5NB-1A-E-DC5V_C48746.pdf
+$ENDCMP
+#
+$CMP G5NB-1A-DC5V
+D Relays General Purpose Non Latching 5VDC SPST-NO 3A (250VAC , 30VDC) Max Plugin RoHS
+K Single Pole Relay
+F https://datasheet.lcsc.com/szlcsc/Omron-Electronics-G5NB-1A-E-DC5V_C48746.pdf
+$ENDCMP
+#
+$CMP G5NB-1A-E-24VDC
+D Relays General Purpose Non Latching 24VDC SPST-NO 5A (250VAC , 30VDC) Max Plugin RoHS
+K Single Pole Relay
+F https://datasheet.lcsc.com/szlcsc/Omron-Electronics-G5NB-1A-E-DC5V_C48746.pdf
+$ENDCMP
+#
+$CMP G5NB-1A-E-DC12
+D Relays General Purpose Non Latching 12VDC SPST-NO 5A (250VAC , 30VDC) Max Plugin RoHS
+K Single Pole Relay
+F https://datasheet.lcsc.com/szlcsc/Omron-Electronics-G5NB-1A-E-DC5V_C48746.pdf
+$ENDCMP
+#
+$CMP G5NB-1A-E-DC5V
+D Relays General Purpose Non Latching 5VDC SPST-NO 5A (250VAC , 30VDC) Max Plugin RoHS
+K Single Pole Relay
+F https://datasheet.lcsc.com/szlcsc/Omron-Electronics-G5NB-1A-E-DC5V_C48746.pdf
+$ENDCMP
+#
 $CMP HLK-PM01
 D AC-DC regulator, Input 100-240VAC 0.1A 50-60Hz, Output 5VDC 0.6A
 F http://www.hlktech.net/product_detail.php?ProId=54

@@ -18,6 +18,12 @@ K ADC SPI analog digital
 F http://www.ti.com/lit/ds/symlink/ads8689.pdf
 $ENDCMP
 #
+$CMP AO4264E
+D 60V N-Channel AlphaSGT T SOIC-8
+K MOSFET N-MOS
+F https://datasheet.lcsc.com/szlcsc/1903121631_Alpha-Omega-Semicon-AOS-AO4264E_C334232.pdf
+$ENDCMP
+#
 $CMP AO4435
 D 30V P-Channel MOSFET
 F https://datasheet.lcsc.com/szlcsc/Alpha-Omega-Semicon-AOS-AO4435_C79714.pdf
@@ -67,6 +73,42 @@ $CMP G3VM-351D
 D General-purpose Series with 350-V Load Voltage Continuous load current of 120 mA
 K General-purpose Series with 350-V Load Voltage Continuous load current of 120 mA
 F https://datasheet.lcsc.com/szlcsc/Omron-Electronics-G3VM-351D_C152706.pdf
+$ENDCMP
+#
+$CMP G5NB-1A-24VDC
+D Relays General Purpose Non Latching 24VDC SPST-NO 3A (250VAC , 30VDC) Max Plugin RoHS
+K Single Pole Relay
+F https://datasheet.lcsc.com/szlcsc/Omron-Electronics-G5NB-1A-E-DC5V_C48746.pdf
+$ENDCMP
+#
+$CMP G5NB-1A-DC12
+D Relays General Purpose Non Latching 12VDC SPST-NO 3A (250VAC , 30VDC) Max Plugin RoHS
+K Single Pole Relay
+F https://datasheet.lcsc.com/szlcsc/Omron-Electronics-G5NB-1A-E-DC5V_C48746.pdf
+$ENDCMP
+#
+$CMP G5NB-1A-DC5V
+D Relays General Purpose Non Latching 5VDC SPST-NO 3A (250VAC , 30VDC) Max Plugin RoHS
+K Single Pole Relay
+F https://datasheet.lcsc.com/szlcsc/Omron-Electronics-G5NB-1A-E-DC5V_C48746.pdf
+$ENDCMP
+#
+$CMP G5NB-1A-E-24VDC
+D Relays General Purpose Non Latching 24VDC SPST-NO 5A (250VAC , 30VDC) Max Plugin RoHS
+K Single Pole Relay
+F https://datasheet.lcsc.com/szlcsc/Omron-Electronics-G5NB-1A-E-DC5V_C48746.pdf
+$ENDCMP
+#
+$CMP G5NB-1A-E-DC12
+D Relays General Purpose Non Latching 12VDC SPST-NO 5A (250VAC , 30VDC) Max Plugin RoHS
+K Single Pole Relay
+F https://datasheet.lcsc.com/szlcsc/Omron-Electronics-G5NB-1A-E-DC5V_C48746.pdf
+$ENDCMP
+#
+$CMP G5NB-1A-E-DC5V
+D Relays General Purpose Non Latching 5VDC SPST-NO 5A (250VAC , 30VDC) Max Plugin RoHS
+K Single Pole Relay
+F https://datasheet.lcsc.com/szlcsc/Omron-Electronics-G5NB-1A-E-DC5V_C48746.pdf
 $ENDCMP
 #
 $CMP HLK-PM01
