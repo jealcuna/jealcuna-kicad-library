@@ -35,6 +35,12 @@ K SSR RELAY
 F https://www3.panasonic.biz/ac/e_download/control/relay/solid-state/catalog/semi_eng_aqh.pdf
 $ENDCMP
 #
+$CMP BAV74
+D Dual 50V 215mA high-speed switching diodes, common cathode, SOT-23
+K diode
+F https://datasheet.lcsc.com/szlcsc/Nexperia-BAV74-215_C85396.pdf
+$ENDCMP
+#
 $CMP CPC1998J
 D Solid State Relay SPST-NO (1 Form A) i4-Pac™-4, Isolated
 K SSR RELAY
@@ -207,6 +213,12 @@ D N-channel 30 V 1.55mΩ logic level MOSFET in LFPAK using NextPower technology
 F https://datasheet.lcsc.com/szlcsc/Nexperia-PSMN1R5-30YLC_C134469.pdf
 $ENDCMP
 #
+$CMP RK7002BM
+D N-Channel 60V 250mA 350mW Surface Mount SOT-23
+K MOSFET N-CH 60V 0.25A SOT-23
+F https://datasheet.lcsc.com/szlcsc/ROHM-Semicon-RK7002BMT116_C157736.pdf
+$ENDCMP
+#
 $CMP RUC002N05HZGT116
 D N-Channel 50V 200mA (Ta) 350mW (Ta) Surface Mount SST3
 K 1.2V DRIVE NCH MOSFET
@@ -367,6 +379,11 @@ $CMP UT3232G-S16-R
 D 3.0V TO 5.5V LOW POWER MULTICHANNEL RS-232 LINE TRANSCEIVERS USING FOR 0.1μF EXTERNAL CAPACITORS
 K rs232 uart transceiver line-driver
 F https://datasheet.lcsc.com/szlcsc/Unisonic-Tech-UT3232G-S16-R_C84913.pdf
+$ENDCMP
+#
+$CMP XRP6272ITC5TR-F
+D Linear Voltage Regulator IC Positive Fixed or Adjustable 1 Output 2A TO-252-5
+F https://www.maxlinear.com/document?id=20803
 $ENDCMP
 #
 #End Doc Library
