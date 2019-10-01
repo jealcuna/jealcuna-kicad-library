@@ -35,6 +35,12 @@ K SSR RELAY
 F https://www3.panasonic.biz/ac/e_download/control/relay/solid-state/catalog/semi_eng_aqh.pdf
 $ENDCMP
 #
+$CMP BAV74
+D Dual 50V 215mA high-speed switching diodes, common cathode, SOT-23
+K diode
+F https://datasheet.lcsc.com/szlcsc/Nexperia-BAV74-215_C85396.pdf
+$ENDCMP
+#
 $CMP CPC1998J
 D Solid State Relay SPST-NO (1 Form A) i4-Pac™-4, Isolated
 K SSR RELAY
@@ -57,6 +63,10 @@ $CMP DMN2011UTS
 D MOSFET N-CH 20V 21A 8-TSSOP
 K NexFET Power MOSFET N-MOS
 F https://www.diodes.com/assets/Datasheets/DMN2011UTS.pdf
+$ENDCMP
+#
+$CMP E22-400T30S
+F http://www.ebyte.com/en/downpdf.aspx?id=484
 $ENDCMP
 #
 $CMP E22-900T30S
@@ -253,6 +263,12 @@ $CMP SGM2028-3.3
 D 500mA, Ultra Low Dropout, Low Power, RF Linear Regulators
 K LDO Regulator
 F https://datasheet.lcsc.com/szlcsc/SG-Micro-SGM2028-3-3YN5G-TR_C81088.pdf
+$ENDCMP
+#
+$CMP SN65HVD82
+D RS-485 transceiver, SOIC-8
+K RS485 transceiver
+F http://www.ti.com/lit/ds/symlink/sn65hvd82.pdf
 $ENDCMP
 #
 $CMP SSM3J328R
