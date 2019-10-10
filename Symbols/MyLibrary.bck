@@ -35,10 +35,22 @@ K SSR RELAY
 F https://www3.panasonic.biz/ac/e_download/control/relay/solid-state/catalog/semi_eng_aqh.pdf
 $ENDCMP
 #
+$CMP B1212S-2WR2
+D 1.5k VDC Isolated DC/DC Converter Module, 12V, 160mA, 2W
+K DC/DC isolated Converter module
+F https://datasheet.lcsc.com/szlcsc/MORNSUN-Guangzhou-S-T-B1212S-2WR2_C58338.pdf
+$ENDCMP
+#
 $CMP BAV74
 D Dual 50V 215mA high-speed switching diodes, common cathode, SOT-23
 K diode
 F https://datasheet.lcsc.com/szlcsc/Nexperia-BAV74-215_C85396.pdf
+$ENDCMP
+#
+$CMP BY25Q32BSTIG
+D 32M, 2.7V Minimum SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support, SOIC-8
+K SPI DSPI QSPI 32Mbit 2.7V
+F https://datasheet.lcsc.com/szlcsc/1907021230_BOYAMICRO-BY25Q32BSTIG_C394868.pdf
 $ENDCMP
 #
 $CMP CPC1998J

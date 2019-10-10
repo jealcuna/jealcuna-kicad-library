@@ -35,6 +35,12 @@ K SSR RELAY
 F https://www3.panasonic.biz/ac/e_download/control/relay/solid-state/catalog/semi_eng_aqh.pdf
 $ENDCMP
 #
+$CMP B1212S-2WR2
+D 1.5k VDC Isolated DC/DC Converter Module, 12V, 160mA, 2W
+K DC/DC isolated Converter module
+F https://datasheet.lcsc.com/szlcsc/MORNSUN-Guangzhou-S-T-B1212S-2WR2_C58338.pdf
+$ENDCMP
+#
 $CMP BAV74
 D Dual 50V 215mA high-speed switching diodes, common cathode, SOT-23
 K diode
