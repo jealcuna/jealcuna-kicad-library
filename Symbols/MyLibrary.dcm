@@ -185,8 +185,15 @@ F https://datasheet.lcsc.com/szlcsc/Monolithic-Power-Systems-MPS-MP2315GJ-Z_C458
 $ENDCMP
 #
 $CMP NCE3090K
-D NCE N-Channel Enhancement Mode Power MOSFET 
+D N Channel 30V 90A(Tc) 2.5V @ 250uA 5.8 mΩ @ 20A,10V TO-252-2(DPAK) MOSFET RoHS
+K N Channel 30V 90A
 F https://datasheet.lcsc.com/szlcsc/Wuxi-NCE-Power-Semiconductor-NCE3090K_C108640.pdf
+$ENDCMP
+#
+$CMP NCE40P40K
+D P Channel 40V 40A(Tc) 3V @ 250uA 14 mΩ @ 12A,10V TO-252-2(DPAK) MOSFET RoHS
+K P Channel 40V 40A
+F https://datasheet.lcsc.com/szlcsc/1810121710_Wuxi-NCE-Power-Semiconductor-NCE40P40K_C130100.pdf
 $ENDCMP
 #
 $CMP NCV7344D13R2G
