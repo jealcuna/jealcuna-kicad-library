@@ -53,6 +53,12 @@ K SPI DSPI QSPI 32Mbit 2.7V
 F https://datasheet.lcsc.com/szlcsc/1907021230_BOYAMICRO-BY25Q32BSTIG_C394868.pdf
 $ENDCMP
 #
+$CMP CN3767
+D 4A, 12V Lead-Acid Battery Charger IC With Photovoltaic Cell MPPT Function
+K 4A, 12V Lead-Acid Battery Charger IC With Photovoltaic Cell MPPT Function
+F http://www.consonance-elec.com/pdf/datasheet/DSE-CN3767.pdf
+$ENDCMP
+#
 $CMP CPC1998J
 D Solid State Relay SPST-NO (1 Form A) i4-Pac™-4, Isolated
 K SSR RELAY
@@ -173,6 +179,12 @@ K current sense shunt monitor
 F http://www.ti.com/lit/ds/symlink/ina190.pdf
 $ENDCMP
 #
+$CMP JW5033ST
+D Sync. Step-Down Converter, 33.7V to 18V operating input range, 2A output current, Up to 95% efficiency
+K Sync. Step-Down Converter, 33.7V to 18V operating input range, 2A output current, Up to 95% efficiency
+F https://datasheet.lcsc.com/szlcsc/1910111742_JoulWatt-Tech-JW5033S_C324577.pdf
+$ENDCMP
+#
 $CMP MCP16251CH
 D Synchronous Boost Regulator, Adjustable Output 1.8V-5.5V, PWM/PFM True Disconnect, SOT-23
 K Step-Up Boost DC-DC Regulator Adjustable
@@ -185,7 +197,8 @@ F https://datasheet.lcsc.com/szlcsc/Monolithic-Power-Systems-MPS-MP2315GJ-Z_C458
 $ENDCMP
 #
 $CMP NCE3090K
-D NCE N-Channel Enhancement Mode Power MOSFET
+D N Channel 30V 90A(Tc) 2.5V @ 250uA 5.8 mΩ @ 20A,10V TO-252-2(DPAK) MOSFET RoHS
+K N Channel 30V 90A
 F https://datasheet.lcsc.com/szlcsc/Wuxi-NCE-Power-Semiconductor-NCE3090K_C108640.pdf
 $ENDCMP
 #
@@ -406,6 +419,18 @@ $CMP TLV75733PDBVR
 D 1A, Low IQ, Small Size, Low Dropout Regulator, Fixed Output 3.3V, SOT-23-5
 K LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tlv757p.pdf
+$ENDCMP
+#
+$CMP TP199A1
+D Zero-Drift, Bi-directional Current Sense Amplifier, 50V/V
+K Zero-Drift, Bi-directional Current Sense Amplifier, 50V/V
+F https://datasheet.lcsc.com/szlcsc/1910171505_3PEAK-TP199A1-CR_C193395.pdf
+$ENDCMP
+#
+$CMP TP199A2
+D Zero-Drift, Bi-directional Current Sense Amplifier, 100V/V
+K Zero-Drift, Bi-directional Current Sense Amplifier, 100V/V
+F https://datasheet.lcsc.com/szlcsc/1910171505_3PEAK-TP199A1-CR_C193395.pdf
 $ENDCMP
 #
 $CMP UT3232G-S16-R
