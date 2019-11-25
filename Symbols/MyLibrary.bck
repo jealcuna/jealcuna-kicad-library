@@ -238,6 +238,12 @@ K CMOS Analog Switch
 F https://www.diodes.com/assets/Datasheets/PI3C3126.pdf
 $ENDCMP
 #
+$CMP PJM3415PSA
+D P Trench 20V 4A 1V @ 250uA 50 mΩ @ 4A,4.5V SOT-23 MOSFET RoHS
+K P Trench 20V 4A 1V @ 250uA 50 mΩ @ 4A,4.5V SOT-23 MOSFET RoHS
+F https://datasheet.lcsc.com/szlcsc/1910111742_PJ-Pingjingsemi-PJM3415PSA_C411717.pdf
+$ENDCMP
+#
 $CMP PSMN1R2-30YLC
 D N-channel 30 V 1.25mΩ logic level MOSFET in LFPAK using NextPower technology
 F https://assets.nexperia.com/documents/data-sheet/PSMN1R2-30YLC.pdf
