@@ -1,4 +1,4 @@
-(module WJ250B-3.50-5P (layer F.Cu) (tedit 5DDB2563)
+(module WJ250B-3.50-5P (layer F.Cu) (tedit 5DE041F7)
   (fp_text reference REF** (at 6.75 2.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -39,4 +39,9 @@
   (pad 3 thru_hole circle (at 7 5) (size 2.2 2.2) (drill 1.2) (layers *.Cu *.Mask))
   (pad 4 thru_hole circle (at 10.5 5) (size 2.2 2.2) (drill 1.2) (layers *.Cu *.Mask))
   (pad 5 thru_hole circle (at 14 5) (size 2.2 2.2) (drill 1.2) (layers *.Cu *.Mask))
+  (model "D:/KICADdev/Library/local_library/jealcuna-kicad-library/3D/Spring_clamp_connector/PTSA 1_5__5-3_5-Z.stp"
+    (offset (xyz -3.25 2.35 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 90))
+  )
 )
