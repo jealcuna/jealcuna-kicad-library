@@ -185,6 +185,12 @@ K Sync. Step-Down Converter, 33.7V to 18V operating input range, 2A output curre
 F https://datasheet.lcsc.com/szlcsc/1910111742_JoulWatt-Tech-JW5033S_C324577.pdf
 $ENDCMP
 #
+$CMP LED_RBAG
+D RGB LED, red/blue/anode/green
+K LED RGB diode
+F ~
+$ENDCMP
+#
 $CMP MCP16251CH
 D Synchronous Boost Regulator, Adjustable Output 1.8V-5.5V, PWM/PFM True Disconnect, SOT-23
 K Step-Up Boost DC-DC Regulator Adjustable
