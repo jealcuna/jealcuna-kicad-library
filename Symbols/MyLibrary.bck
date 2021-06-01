@@ -53,6 +53,12 @@ K SPI DSPI QSPI 32Mbit 2.7V
 F https://datasheet.lcsc.com/szlcsc/1907021230_BOYAMICRO-BY25Q32BSTIG_C394868.pdf
 $ENDCMP
 #
+$CMP CAT5171
+D 256‐position I2C Compatible Digital Potentiometer (POT)
+K Digital Pot Potentiometer Up Down
+F https://datasheet.lcsc.com/szlcsc/ON-Semicon-ON-CAT5171TBI-50GT3_C154777.pdf
+$ENDCMP
+#
 $CMP CN3767
 D 4A, 12V Lead-Acid Battery Charger IC With Photovoltaic Cell MPPT Function
 K 4A, 12V Lead-Acid Battery Charger IC With Photovoltaic Cell MPPT Function
@@ -81,6 +87,11 @@ $CMP DMN2011UTS
 D MOSFET N-CH 20V 21A 8-TSSOP
 K NexFET Power MOSFET N-MOS
 F https://www.diodes.com/assets/Datasheets/DMN2011UTS.pdf
+$ENDCMP
+#
+$CMP DRV8825
+D Stepper Motor Controller IC
+F https://datasheet.lcsc.com/szlcsc/1810151711_Texas-Instruments-DRV8825PWPR_C81582.pdf
 $ENDCMP
 #
 $CMP E22-400T30S
@@ -180,9 +191,21 @@ F http://www.ti.com/lit/ds/symlink/ina190.pdf
 $ENDCMP
 #
 $CMP JW5033ST
-D Sync. Step-Down Converter, 33.7V to 18V operating input range, 2A output current, Up to 95% efficiency
-K Sync. Step-Down Converter, 33.7V to 18V operating input range, 2A output current, Up to 95% efficiency
+D Sync. Step-Down Converter, 3.7V to 18V operating input range, 2A output current, Up to 95% efficiency
+K Sync. Step-Down Converter, 3.7V to 18V operating input range, 2A output current, Up to 95% efficiency
 F https://datasheet.lcsc.com/szlcsc/1910111742_JoulWatt-Tech-JW5033S_C324577.pdf
+$ENDCMP
+#
+$CMP JW5060T
+D Sync. Step-Down Converter, 4V to 24V operating input range, 3A output current, Up to 95% efficiency
+K Sync. Step-Down Converter, 4V to 24V operating input range, 3A output current, Up to 95% efficiency
+F https://datasheet.lcsc.com/szlcsc/1903011604_JoulWatt-Tech-JW5060T_C371420.pdf
+$ENDCMP
+#
+$CMP LED_RBAG
+D RGB LED, red/blue/anode/green
+K LED RGB diode
+F ~
 $ENDCMP
 #
 $CMP MCP16251CH
@@ -425,6 +448,11 @@ $CMP TLV75733PDBVR
 D 1A, Low IQ, Small Size, Low Dropout Regulator, Fixed Output 3.3V, SOT-23-5
 K LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tlv757p.pdf
+$ENDCMP
+#
+$CMP TMC2225
+D Step/Dir Driver Two-Phase Bipolar Stepper Motors 2A peak - StealthChop™ - UART
+F https://datasheet.lcsc.com/szlcsc/2004271811_TRINAMIC-Motion-Control-GmbH-TMC2225-SA-T_C516358.pdf
 $ENDCMP
 #
 $CMP TP199A1
