@@ -478,4 +478,10 @@ D Linear Voltage Regulator IC Positive Fixed or Adjustable 1 Output 2A TO-252-5
 F https://www.maxlinear.com/document?id=20803
 $ENDCMP
 #
+$CMP ZTP7193KT
+D 3A, 18V, 650KHz, Synchronous Step-Down DC/DC Converter
+K 3A, 18V, 650KHz, Synchronous Step-Down DC/DC Converter
+F https://datasheet.lcsc.com/lcsc/2003111833_ZILLTEK-ZTP7193KT_C481283.pdf
+$ENDCMP
+#
 #End Doc Library
