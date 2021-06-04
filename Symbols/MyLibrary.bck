@@ -35,6 +35,12 @@ K SSR RELAY
 F https://www3.panasonic.biz/ac/e_download/control/relay/solid-state/catalog/semi_eng_aqh.pdf
 $ENDCMP
 #
+$CMP B1212S-1W
+D 1.5k VDC Isolated DC/DC Converter Module, 12V, 160mA, 2W
+K DC/DC isolated Converter module
+F https://datasheet.lcsc.com/lcsc/2004131005_rlt-B1212S-1W_C512042.pdf
+$ENDCMP
+#
 $CMP B1212S-2WR2
 D 1.5k VDC Isolated DC/DC Converter Module, 12V, 160mA, 2W
 K DC/DC isolated Converter module
@@ -476,6 +482,12 @@ $ENDCMP
 $CMP XRP6272ITC5TR-F
 D Linear Voltage Regulator IC Positive Fixed or Adjustable 1 Output 2A TO-252-5
 F https://www.maxlinear.com/document?id=20803
+$ENDCMP
+#
+$CMP ZTP7193KT
+D 3A, 18V, 650KHz, Synchronous Step-Down DC/DC Converter
+K 3A, 18V, 650KHz, Synchronous Step-Down DC/DC Converter
+F https://datasheet.lcsc.com/lcsc/2003111833_ZILLTEK-ZTP7193KT_C481283.pdf
 $ENDCMP
 #
 #End Doc Library
