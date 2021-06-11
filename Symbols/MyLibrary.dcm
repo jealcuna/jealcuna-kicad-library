@@ -65,6 +65,12 @@ K Digital Pot Potentiometer Up Down
 F https://datasheet.lcsc.com/szlcsc/ON-Semicon-ON-CAT5171TBI-50GT3_C154777.pdf
 $ENDCMP
 #
+$CMP CH340K
+D USB serial converter, UART, ESSOP-10
+K USB UART Serial Converter Interface
+F https://datasheet.lcsc.com/szlcsc/Jiangsu-Qin-Heng-CH340C_C84681.pdf
+$ENDCMP
+#
 $CMP CN3767
 D 4A, 12V Lead-Acid Battery Charger IC With Photovoltaic Cell MPPT Function
 K 4A, 12V Lead-Acid Battery Charger IC With Photovoltaic Cell MPPT Function
@@ -93,6 +99,12 @@ $CMP CS5344
 D 98 dB, 96 kHz, Multi-Bit Audio A/D Converter
 K 98 dB, 96 kHz, Multi-Bit Audio A/D Converter
 F https://datasheet.lcsc.com/szlcsc/Cirrus-Logic-CS5343-CZZ_C21255.pdf
+$ENDCMP
+#
+$CMP DIO32320MP10
+D Low-Power, USB2.0 High Speed Switch, MSOP-10
+K USB 2.0 High Speed Switch
+F https://datasheet.lcsc.com/lcsc/1912111437_DIOO-DIO32320MP10_C444626.pdf
 $ENDCMP
 #
 $CMP DMN2011UTS

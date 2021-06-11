@@ -65,6 +65,12 @@ K Digital Pot Potentiometer Up Down
 F https://datasheet.lcsc.com/szlcsc/ON-Semicon-ON-CAT5171TBI-50GT3_C154777.pdf
 $ENDCMP
 #
+$CMP CH340K
+D USB serial converter, UART, ESSOP-10
+K USB UART Serial Converter Interface
+F https://datasheet.lcsc.com/szlcsc/Jiangsu-Qin-Heng-CH340C_C84681.pdf
+$ENDCMP
+#
 $CMP CN3767
 D 4A, 12V Lead-Acid Battery Charger IC With Photovoltaic Cell MPPT Function
 K 4A, 12V Lead-Acid Battery Charger IC With Photovoltaic Cell MPPT Function
@@ -93,6 +99,12 @@ $CMP CS5344
 D 98 dB, 96 kHz, Multi-Bit Audio A/D Converter
 K 98 dB, 96 kHz, Multi-Bit Audio A/D Converter
 F https://datasheet.lcsc.com/szlcsc/Cirrus-Logic-CS5343-CZZ_C21255.pdf
+$ENDCMP
+#
+$CMP DIO32320MP10
+D Low-Power, USB2.0 High Speed Switch, MSOP-10
+K USB 2.0 High Speed Switch
+F https://datasheet.lcsc.com/lcsc/1912111437_DIOO-DIO32320MP10_C444626.pdf
 $ENDCMP
 #
 $CMP DMN2011UTS
@@ -235,6 +247,12 @@ $CMP NCE3090K
 D N Channel 30V 90A(Tc) 2.5V @ 250uA 5.8 mΩ @ 20A,10V TO-252-2(DPAK) MOSFET RoHS
 K N Channel 30V 90A
 F https://datasheet.lcsc.com/szlcsc/Wuxi-NCE-Power-Semiconductor-NCE3090K_C108640.pdf
+$ENDCMP
+#
+$CMP NCE30P30K
+D P-Channel -30V 30A 2.5V @ 250uA 18mΩ @ 20A,10V 60W TO-252-2(DPAK) MOSFETs RoHS
+K P Channel 30V 30A
+F https://datasheet.lcsc.com/lcsc/1811041601_Wuxi-NCE-Power-Semiconductor-NCE30P30K_C130106.pdf
 $ENDCMP
 #
 $CMP NCE40P40K
