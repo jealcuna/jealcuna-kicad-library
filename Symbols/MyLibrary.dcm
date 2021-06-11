@@ -237,6 +237,12 @@ K N Channel 30V 90A
 F https://datasheet.lcsc.com/szlcsc/Wuxi-NCE-Power-Semiconductor-NCE3090K_C108640.pdf
 $ENDCMP
 #
+$CMP NCE30P30K
+D P-Channel -30V 30A 2.5V @ 250uA 18mΩ @ 20A,10V 60W TO-252-2(DPAK) MOSFETs RoHS
+K P Channel 30V 30A
+F https://datasheet.lcsc.com/lcsc/1811041601_Wuxi-NCE-Power-Semiconductor-NCE30P30K_C130106.pdf
+$ENDCMP
+#
 $CMP NCE40P40K
 D P Channel 40V 40A(Tc) 3V @ 250uA 14 mΩ @ 12A,10V TO-252-2(DPAK) MOSFET RoHS
 K P Channel 40V 40A

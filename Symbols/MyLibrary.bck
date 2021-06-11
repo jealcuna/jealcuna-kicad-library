@@ -71,6 +71,12 @@ K 4A, 12V Lead-Acid Battery Charger IC With Photovoltaic Cell MPPT Function
 F http://www.consonance-elec.com/pdf/datasheet/DSE-CN3767.pdf
 $ENDCMP
 #
+$CMP CN3768
+D 4A, 12V Lead-Acid Battery Charger IC
+K 4A, 12V Lead-Acid Battery Charger IC
+F http://www.consonance-elec.com/pdf/datasheet/DSE-CN3767.pdf
+$ENDCMP
+#
 $CMP CPC1998J
 D Solid State Relay SPST-NO (1 Form A) i4-Pac™-4, Isolated
 K SSR RELAY
