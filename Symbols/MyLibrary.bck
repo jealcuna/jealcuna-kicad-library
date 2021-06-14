@@ -29,6 +29,12 @@ D 30V P-Channel MOSFET
 F https://datasheet.lcsc.com/szlcsc/Alpha-Omega-Semicon-AOS-AO4435_C79714.pdf
 $ENDCMP
 #
+$CMP AP7365-33WG
+D 600mA, LOW QUIESCENT CURRENT FAST TRANSIENT LOW DROPOUT LINEAR REGULATOR
+K LDO Regulator
+F https://datasheet.lcsc.com/lcsc/1804171930_Diodes-Incorporated-AP7365-33WG-7_C150742.pdf
+$ENDCMP
+#
 $CMP AQH0213AZ
 D Solid State Relay SPST-NO (1 Form A) 8-SMD (0.300", 7.62mm), 7 Leads
 K SSR RELAY
