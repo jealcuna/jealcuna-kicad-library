@@ -238,6 +238,12 @@ K LED RGB diode
 F ~
 $ENDCMP
 #
+$CMP MAX3485
+D 3.3V-Powered, ±15kV ESD-Protected, 12Mbps and Slew-Rate-Limited True RS-485/RS-422 Transceivers
+K 3.3V-Powered RS-485/RS-422 Transceivers
+F https://datasheet.lcsc.com/lcsc/1811082117_Maxim-Integrated-MAX3485EESA-T_C9943.pdf
+$ENDCMP
+#
 $CMP MCP16251CH
 D Synchronous Boost Regulator, Adjustable Output 1.8V-5.5V, PWM/PFM True Disconnect, SOT-23
 K Step-Up Boost DC-DC Regulator Adjustable
@@ -507,6 +513,10 @@ $CMP UT3232G-S16-R
 D 3.0V TO 5.5V LOW POWER MULTICHANNEL RS-232 LINE TRANSCEIVERS USING FOR 0.1μF EXTERNAL CAPACITORS
 K rs232 uart transceiver line-driver
 F https://datasheet.lcsc.com/szlcsc/Unisonic-Tech-UT3232G-S16-R_C84913.pdf
+$ENDCMP
+#
+$CMP XB3-24Z8UM-J
+F https://www.mouser.com/datasheet/2/111/ds_xbee-3-zigbee-3-1288823.pdf
 $ENDCMP
 #
 $CMP XRP6272ITC5TR-F
