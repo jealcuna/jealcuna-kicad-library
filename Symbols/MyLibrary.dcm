@@ -378,6 +378,12 @@ K RS485 transceiver
 F http://www.ti.com/lit/ds/symlink/sn65hvd82.pdf
 $ENDCMP
 #
+$CMP SN74LVC1G17DBV
+D Single Schmitt-Trigger, SOT-23
+K Schmitt Trigger
+F https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf
+$ENDCMP
+#
 $CMP SSM3J328R
 D P-Channel 20V 6A (Ta) 1W (Ta) Surface Mount SOT-23F
 K P-Channel 20V 6A (Ta) 1W (Ta) Surface Mount SOT-23F
