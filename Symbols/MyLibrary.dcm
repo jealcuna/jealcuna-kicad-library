@@ -29,6 +29,12 @@ D 30V P-Channel MOSFET
 F https://datasheet.lcsc.com/szlcsc/Alpha-Omega-Semicon-AOS-AO4435_C79714.pdf
 $ENDCMP
 #
+$CMP AP7343-33W5
+D 300mA HIGH PSRR LOW NOISE LDO WITH ENABLE
+K LDO Regulator
+F https://datasheet.lcsc.com/lcsc/1808080021_Diodes-Incorporated-AP7343D-33FS4-7B_C260892.pdf
+$ENDCMP
+#
 $CMP AP7365-33WG
 D 600mA, LOW QUIESCENT CURRENT FAST TRANSIENT LOW DROPOUT LINEAR REGULATOR
 K LDO Regulator
@@ -57,6 +63,12 @@ $CMP BAV74
 D Dual 50V 215mA high-speed switching diodes, common cathode, SOT-23
 K diode
 F https://datasheet.lcsc.com/szlcsc/Nexperia-BAV74-215_C85396.pdf
+$ENDCMP
+#
+$CMP BD9E302EFJ
+D 7.0V〜28V Input, 3A Integrated MOSFET Single Synchronous Buck DC/DC Converter , HTSOP-8
+K Buck Converter
+F https://www.mouser.ec/datasheet/2/348/bd9e302efj-e-1874376.pdf
 $ENDCMP
 #
 $CMP BY25Q32BSTIG
@@ -236,6 +248,12 @@ $CMP LED_RBAG
 D RGB LED, red/blue/anode/green
 K LED RGB diode
 F ~
+$ENDCMP
+#
+$CMP LTC4162-S
+D 35V/3.2A Lead-Acid Step-Down Battery Charger with PowerPath and I2C Telemetry
+K Lead-Acid Battery Charger
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LTC4162-S.pdf
 $ENDCMP
 #
 $CMP MAX3485
@@ -534,6 +552,12 @@ $CMP ZTP7193KT
 D 3A, 18V, 650KHz, Synchronous Step-Down DC/DC Converter
 K 3A, 18V, 650KHz, Synchronous Step-Down DC/DC Converter
 F https://datasheet.lcsc.com/lcsc/2003111833_ZILLTEK-ZTP7193KT_C481283.pdf
+$ENDCMP
+#
+$CMP ZTP7193YH
+D 3A, 18V, 1MHz, Synchronous Step-Down DC/DC Converter
+K 3A, 18V, 1MHz, Synchronous Step-Down DC/DC Converter
+F https://datasheet.lcsc.com/lcsc/2003111833_ZILLTEK-ZTP7193YH_C481281.pdf
 $ENDCMP
 #
 #End Doc Library
