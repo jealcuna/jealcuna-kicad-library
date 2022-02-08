@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ADE7880
+D Polyphase Multifunction Energy Metering IC with Harmonic Monitoring, CP-40-10
+K Energy Metering
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADE7880.pdf
+$ENDCMP
+#
+$CMP ADR280
+D 1.2 V Ultralow Power High PSRR Voltage Reference, SOT-23
+K vref
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADR280.pdf
+$ENDCMP
+#
 $CMP ADS8681PW
 D 16-Bit, High-Speed, Single-Supply, SAR ADC Data Acquisition System with Programmable, Bipolar Input Ranges, 1MSPS, TSSOP-16
 K ADC SPI analog digital
@@ -45,6 +57,18 @@ $CMP AQH0213AZ
 D Solid State Relay SPST-NO (1 Form A) 8-SMD (0.300", 7.62mm), 7 Leads
 K SSR RELAY
 F https://www3.panasonic.biz/ac/e_download/control/relay/solid-state/catalog/semi_eng_aqh.pdf
+$ENDCMP
+#
+$CMP B0505S-1WR3
+D 1.5k VDC Isolated DC/DC Converter Module, 5V, 200mA, 1W
+K DC/DC isolated Converter module
+F https://www.mornsun-power.com/public/uploads/pdf/B05_S-1WR3.pdf
+$ENDCMP
+#
+$CMP B1205-1WR2
+D 1.5k VDC Isolated DC/DC Converter Module, 5V, 200mA, 1W
+K DC/DC isolated Converter module
+F https://www.mornsun-power.com/public/uploads/pdf/B_D-1WR2.pdf
 $ENDCMP
 #
 $CMP B1212S-1W
@@ -202,6 +226,30 @@ D AC-DC regulator, Input 100-240VAC 0.1A 50-60Hz, Output 3.3VDC 1A
 F http://www.hlktech.net/product_detail.php?ProId=54
 $ENDCMP
 #
+$CMP INA180A1
+D Low- and High-Side Voltage Output, Current-Sense Amplifiers, SOT-23-5
+K current monitor shunt sensor bidirectional
+F https://datasheet.lcsc.com/lcsc/1811021124_Texas-Instruments-INA180A2IDBVR_C192764.pdf
+$ENDCMP
+#
+$CMP INA180A2
+D Low- and High-Side Voltage Output, Current-Sense Amplifiers, SOT-23-5
+K current monitor shunt sensor bidirectional
+F https://datasheet.lcsc.com/lcsc/1811021124_Texas-Instruments-INA180A2IDBVR_C192764.pdf
+$ENDCMP
+#
+$CMP INA180A3
+D Low- and High-Side Voltage Output, Current-Sense Amplifiers, SOT-23-5
+K current monitor shunt sensor bidirectional
+F https://datasheet.lcsc.com/lcsc/1811021124_Texas-Instruments-INA180A2IDBVR_C192764.pdf
+$ENDCMP
+#
+$CMP INA180A4
+D Low- and High-Side Voltage Output, Current-Sense Amplifiers, SOT-23-5
+K current monitor shunt sensor bidirectional
+F https://datasheet.lcsc.com/lcsc/1811021124_Texas-Instruments-INA180A2IDBVR_C192764.pdf
+$ENDCMP
+#
 $CMP INA190A1RSW
 D Low-Supply, High-Accuracy, Low- and High-Side Current-Shunt Monitor With Picoamp Bias Current and Enable, UQFN (10) package
 K current sense shunt monitor
@@ -254,6 +302,54 @@ $CMP LTC4162-S
 D 35V/3.2A Lead-Acid Step-Down Battery Charger with PowerPath and I2C Telemetry
 K Lead-Acid Battery Charger
 F https://www.analog.com/media/en/technical-documentation/data-sheets/LTC4162-S.pdf
+$ENDCMP
+#
+$CMP MAX22025
+D Compact, Isolated, Half-Duplex RS-485/RS-422, Transceivers with AutoDirection Control, SOIC-8
+K rs-485 rs-422 eia485 eia-485 eia422 eia-422 serial differential isolated
+F https://datasheets.maximintegrated.com/en/ds/MAX22025-MAX22028.pdf
+$ENDCMP
+#
+$CMP MAX22025F
+D Compact, Isolated, Half-Duplex RS-485/RS-422, Transceivers with AutoDirection Control, SOIC-8
+K rs-485 rs-422 eia485 eia-485 eia422 eia-422 serial differential isolated
+F https://datasheets.maximintegrated.com/en/ds/MAX22025-MAX22028.pdf
+$ENDCMP
+#
+$CMP MAX22026
+D Compact, Isolated, Half-Duplex RS-485/RS-422, Transceivers with AutoDirection Control, SOIC-8
+K rs-485 rs-422 eia485 eia-485 eia422 eia-422 serial differential isolated
+F https://datasheets.maximintegrated.com/en/ds/MAX22025-MAX22028.pdf
+$ENDCMP
+#
+$CMP MAX22026F
+D Compact, Isolated, Half-Duplex RS-485/RS-422, Transceivers with AutoDirection Control, SOIC-8
+K rs-485 rs-422 eia485 eia-485 eia422 eia-422 serial differential isolated
+F https://datasheets.maximintegrated.com/en/ds/MAX22025-MAX22028.pdf
+$ENDCMP
+#
+$CMP MAX22027
+D Compact, Isolated, Half-Duplex RS-485/RS-422, Transceivers with AutoDirection Control, SOIC-8
+K rs-485 rs-422 eia485 eia-485 eia422 eia-422 serial differential isolated
+F https://datasheets.maximintegrated.com/en/ds/MAX22025-MAX22028.pdf
+$ENDCMP
+#
+$CMP MAX22027F
+D Compact, Isolated, Half-Duplex RS-485/RS-422, Transceivers with AutoDirection Control, SOIC-8
+K rs-485 rs-422 eia485 eia-485 eia422 eia-422 serial differential isolated
+F https://datasheets.maximintegrated.com/en/ds/MAX22025-MAX22028.pdf
+$ENDCMP
+#
+$CMP MAX22028
+D Compact, Isolated, Half-Duplex RS-485/RS-422, Transceivers with AutoDirection Control, SOIC-8
+K rs-485 rs-422 eia485 eia-485 eia422 eia-422 serial differential isolated
+F https://datasheets.maximintegrated.com/en/ds/MAX22025-MAX22028.pdf
+$ENDCMP
+#
+$CMP MAX22028F
+D Compact, Isolated, Half-Duplex RS-485/RS-422, Transceivers with AutoDirection Control, SOIC-8
+K rs-485 rs-422 eia485 eia-485 eia422 eia-422 serial differential isolated
+F https://datasheets.maximintegrated.com/en/ds/MAX22025-MAX22028.pdf
 $ENDCMP
 #
 $CMP MAX3485
@@ -432,6 +528,24 @@ K rs232 uart transceiver line-driver
 F https://www.st.com/content/ccc/resource/technical/document/datasheet/60/fc/e5/60/2c/24/41/88/CD00002950.pdf/files/CD00002950.pdf/jcr:content/translations/en.CD00002950.pdf
 $ENDCMP
 #
+$CMP STM32G030C8Tx
+D Arm® Cortex®-M0+ 32-bit MCU, up to 64 KB Flash, 8 KB RAM, 2x USART, timers, ADC, comm. I/Fs, 2.0-3.6V, LQFP-48
+K ARM Cortex-M0+ STM32G0 STM32G0x0 Value Line
+F https://datasheet.lcsc.com/lcsc/2005192134_STMicroelectronics-STM32G030C8T6_C529329.pdf
+$ENDCMP
+#
+$CMP STM32G030F6Px
+D Arm Cortex-M0+ 32-bit MCU, up to 64 KB Flash, 8 KB RAM, 2x USART, timers, ADC, comm. I/Fs, 2.0-3.6V
+K ARM Cortex-M0 STM32F0 STM32G0x0 Value Line
+F https://datasheet.lcsc.com/lcsc/2005192134_STMicroelectronics-STM32G030F6P6TR_C529330.pdf
+$ENDCMP
+#
+$CMP STM32G070CBTx
+D Arm Cortex-M0+ 32-bit MCU, 128 KB Flash, 36 KB RAM, 4x USART, timers, ADC, comm. I/Fs, 2.0-3.6V
+K Arm Cortex-M0+ STM32G0 STM32G0x0 Value Line
+F https://datasheet.lcsc.com/lcsc/2005192135_STMicroelectronics-STM32G070CBT6_C529338.pdf
+$ENDCMP
+#
 $CMP T1210-800G-TR
 D TRIAC Logic - Sensitive Gate 800V 12A Surface Mount D2PAK
 K Triac
@@ -558,6 +672,12 @@ $CMP ZTP7193YH
 D 3A, 18V, 1MHz, Synchronous Step-Down DC/DC Converter
 K 3A, 18V, 1MHz, Synchronous Step-Down DC/DC Converter
 F https://datasheet.lcsc.com/lcsc/2003111833_ZILLTEK-ZTP7193YH_C481281.pdf
+$ENDCMP
+#
+$CMP π131M31
+D Enhanced ESD, 3.0 kV rms/6.0 kV rms 10Mbps Triple-Channel Digital Isolators, SOIC-16-N
+K Triple-channel digital isolator
+F https://datasheet.lcsc.com/lcsc/2001082032_2Pai-Semi--131M31_C471599.pdf
 $ENDCMP
 #
 #End Doc Library
