@@ -41,6 +41,24 @@ D 30V P-Channel MOSFET
 F https://datasheet.lcsc.com/szlcsc/Alpha-Omega-Semicon-AOS-AO4435_C79714.pdf
 $ENDCMP
 #
+$CMP AP62300TWU-7
+D 4.2V TO 18V INPUT, 3A LOW IQ SYNCHRONOUS BUCK CONVERTER
+K 4.2V TO 18V INPUT, 3A LOW IQ SYNCHRONOUS BUCK CONVERTER
+F https://www.diodes.com/assets/Datasheets/AP62300_AP62301_AP62300T.pdf
+$ENDCMP
+#
+$CMP AP62300WU-7
+D 4.2V TO 18V INPUT, 3A LOW IQ SYNCHRONOUS BUCK CONVERTER
+K 4.2V TO 18V INPUT, 3A LOW IQ SYNCHRONOUS BUCK CONVERTER
+F https://www.diodes.com/assets/Datasheets/AP62300_AP62301_AP62300T.pdf
+$ENDCMP
+#
+$CMP AP62301WU-7
+D 4.2V TO 18V INPUT, 3A LOW IQ SYNCHRONOUS BUCK CONVERTER
+K 4.2V TO 18V INPUT, 3A LOW IQ SYNCHRONOUS BUCK CONVERTER
+F https://www.diodes.com/assets/Datasheets/AP62300_AP62301_AP62300T.pdf
+$ENDCMP
+#
 $CMP AP7343-33W5
 D 300mA HIGH PSRR LOW NOISE LDO WITH ENABLE
 K LDO Regulator
@@ -87,6 +105,12 @@ $CMP BAV74
 D Dual 50V 215mA high-speed switching diodes, common cathode, SOT-23
 K diode
 F https://datasheet.lcsc.com/szlcsc/Nexperia-BAV74-215_C85396.pdf
+$ENDCMP
+#
+$CMP BD9D321EFJ
+D 4.5V〜18V Input, 3A Integrated MOSFET 1ch Synchronous Buck DC/DC Converter , HTSOP-8
+K Buck Converter
+F https://www.mouser.ec/datasheet/2/348/bd9d321efj-e-1874436.pdf
 $ENDCMP
 #
 $CMP BD9E302EFJ
@@ -438,6 +462,12 @@ D N-channel 30 V 1.55mΩ logic level MOSFET in LFPAK using NextPower technology
 F https://datasheet.lcsc.com/szlcsc/Nexperia-PSMN1R5-30YLC_C134469.pdf
 $ENDCMP
 #
+$CMP Q_PMOS_SSSGD
+D P-MOSFET transistor, gate/drain/source, drain connected to mounting plane
+K transistor PMOS P-MOS P-MOSFET
+F ~
+$ENDCMP
+#
 $CMP RK7002BM
 D N-Channel 60V 250mA 350mW Surface Mount SOT-23
 K MOSFET N-CH 60V 0.25A SOT-23
@@ -651,6 +681,12 @@ $CMP UT3232G-S16-R
 D 3.0V TO 5.5V LOW POWER MULTICHANNEL RS-232 LINE TRANSCEIVERS USING FOR 0.1μF EXTERNAL CAPACITORS
 K rs232 uart transceiver line-driver
 F https://datasheet.lcsc.com/szlcsc/Unisonic-Tech-UT3232G-S16-R_C84913.pdf
+$ENDCMP
+#
+$CMP VXO78012-1000
+D Positive 16V - 36V DC/DC Regulator, Fixed Output 12V, 12W
+K Voltage Regulator 12W Positive
+F https://www.mouser.ec/datasheet/2/670/vxo78_1000-1774519.pdf
 $ENDCMP
 #
 $CMP XB3-24Z8UM-J
